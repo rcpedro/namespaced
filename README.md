@@ -22,7 +22,7 @@ Or install it yourself as:
 
 Include the concern Namespaceable to your ActiveRecord models:
 
-```
+```ruby
 class ApplicationRecord < ActiveRecord::Base
   include Namespaceable
 end
@@ -30,7 +30,7 @@ end
 
 Declare namespaces for associations:
 
-```
+```ruby
 module Auth
   class User < ApplicationRecord
     namespace :school do

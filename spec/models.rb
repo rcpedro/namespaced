@@ -1,5 +1,5 @@
 class ApplicationRecord < ActiveRecord::Base
-  include Namespaceable
+  include Namespaced
 end
 
 module Auth
