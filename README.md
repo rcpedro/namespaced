@@ -28,7 +28,7 @@ class ApplicationRecord < ActiveRecord::Base
 end
 ```
 
-Declare the namespaces for associations:
+Declare namespaces for associations:
 
 ```
 module Auth
@@ -70,5 +70,5 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/namespaced.
+Bug reports and pull requests are welcome on GitHub at https://github.com/rcpedro/namespaced.
 

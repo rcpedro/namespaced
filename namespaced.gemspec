@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Rodette Pedro"]
   spec.email         = ["rpedro@jway.com"]
 
-  spec.summary       = "Namespaced ActiveRecord Associations "
-  spec.description   = "Declare namespaces for active record associations"
+  spec.summary       = "Namespaced ActiveRecord Associations"
+  spec.description   = "Declare namespaces for ActiveRecord associations."
   spec.homepage      = "https://github.com/rcpedro/namespaced"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
