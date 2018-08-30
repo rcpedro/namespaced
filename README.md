@@ -20,11 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-Include the concern Namespaceable to your ActiveRecord models:
+Include the concern Namespaced into your ActiveRecord models:
 
 ```ruby
 class ApplicationRecord < ActiveRecord::Base
-  include Namespaceable
+  include Namespaced
 end
 ```
 
