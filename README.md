@@ -7,7 +7,7 @@ Declare ActiveRecord relations under namespaces for projects where models are se
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'namespaced'
+gem 'namespaced', git: 'https://github.com/rcpedro/namespaced.git'
 ```
 
 And then execute:
